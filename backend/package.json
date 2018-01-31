@@ -4,7 +4,7 @@
   "description": "",
   "main": "loader.js",
   "scripts": {
-    "dev": "nodemon ./backend/loader.js",
+    "start": "nodemon",
     "production": "pm2 start loader.js --name cursomeanudemy"
   },
   "repository": {
