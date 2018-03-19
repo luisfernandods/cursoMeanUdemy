@@ -1,7 +1,7 @@
 const _ = require("lodash");
 const BillingCycle = require("../billingCycle/billingCycle");
 
-function getSumary(req, res, next) {
+function getSummary(req, res, next) {
   BillingCycle.aggregate([
     {
       $project: {
@@ -28,4 +28,4 @@ function getSumary(req, res, next) {
     });
 }
 
-module.exports = { getSumary };
+module.exports = { getSummary };
